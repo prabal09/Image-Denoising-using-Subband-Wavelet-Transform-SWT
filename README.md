@@ -1,7 +1,7 @@
 # Image-Denoising using Subband Wavelet Transform SWT
 
 1. Biorthogonal Filters:
-Wavelet transform was used in order to obtain a set of biorthogonal filters’ co-efficient which are used to convolve with the noisy image.The filter co-efficients were as given in [1] from Table II.
+Wavelet transform was used in order to obtain a set of biorthogonal filters’ co-efficient which are used to convolve with the noisy image.The filter co-efficients were taken from [1] (Table II).
 2. Symmetric Extension Method:
 The boundary condition is dealt with using the symmetric extension method which generates a whole sample for odd length filters, which is the case here. The method is as per [2] proposed by Martucci.
 3. Image Denoising
